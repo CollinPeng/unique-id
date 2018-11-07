@@ -1,0 +1,34 @@
+{
+  "name": "collin-peng/unique-id",
+  "description": "Generate unique id",
+  "keywords": [
+    "ObjectId",
+    "uuid"
+  ],
+  "homepage": "https://github.com/CollinPeng/unique-id",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Collin",
+      "email": "pengcoltom@gmail.com",
+      "homepage": "http://blog.collin2.xyz",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CollinPeng\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CollinPeng\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}
